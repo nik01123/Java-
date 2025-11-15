@@ -144,20 +144,20 @@ public class Main {
 //            newAcc.deposit(100);
 //            newAcc.withdraw(100);
 
-              insects insect = new insects(5,6);
-              Spider spider = new Spider(13, true);
-              cricket crickets = new cricket(2,1.25);
+              // insects insect = new insects(5,6);
+              // Spider spider = new Spider(13, true);
+              // cricket crickets = new cricket(2,1.25);
 
-              insect.crawl();
-              insect.say();
-              spider.crawl();
-              spider.say();
-              crickets.say();
-              crickets.crawl();
-              crickets.jump();
+              // insect.crawl();
+              // insect.say();
+              // spider.crawl();
+              // spider.say();
+              // crickets.say();
+              // crickets.crawl();
+              // crickets.jump();
 
-              if(spider instanceof insects && spider instanceof Spider){
-                  System.out.println("Spider is both an insect and a spider");
+              // if(spider instanceof insects && spider instanceof Spider){
+              //     System.out.println("Spider is both an insect and a spider");
               }
 
 
