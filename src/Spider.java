@@ -6,7 +6,7 @@ public class Spider extends insects {
 
 
     }
-    
+
     public void say(){
         System.out.println("HISSS...");
     }
