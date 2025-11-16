@@ -1,5 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
         //Scanner sc = new Scanner(System.in);
@@ -144,6 +146,7 @@ public class Main {
 //            newAcc.deposit(100);
 //            newAcc.withdraw(100);
 
+<<<<<<< HEAD
               // insects insect = new insects(5,6);
               // Spider spider = new Spider(13, true);
               // cricket crickets = new cricket(2,1.25);
@@ -159,8 +162,42 @@ public class Main {
               // if(spider instanceof insects && spider instanceof Spider){
               //     System.out.println("Spider is both an insect and a spider");
               }
+//              insects insect = new insects(5,6);
+//              Spider spider = new Spider(13, true);
+//              cricket crickets = new cricket(2,1.25);
+//
+//              insect.crawl();
+//              insect.say();
+//              spider.crawl();
+//              spider.say();
+//              crickets.say();
+//              crickets.crawl();
+//              crickets.jump();
+//
+//              if(spider instanceof insects && spider instanceof Spider){
+//                  System.out.println("Spider is both an insect and a spider");
+//              }
 
+                cat Cat = new cat();
+                bird b = new bird();
+                if (Cat instanceof  pet ){
+                    Cat.play();
+                }
+                if (b instanceof pet){
+                    b.play();
+                }
 
+                pet p;
+                Random rand = new Random();
+                int n = rand.nextInt(2);
+                if(n == 0){
+                    p = new cat();
+                }
+                else{
+                    p = new bird();
+                }
+                p.play();
+       // Interfaces just enforces the class to have a particular method/field/behaviour, and not its implementation
     }
 }
 
