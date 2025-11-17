@@ -146,7 +146,6 @@ public class Main {
 //            newAcc.deposit(100);
 //            newAcc.withdraw(100);
 
-<<<<<<< HEAD
               // insects insect = new insects(5,6);
               // Spider spider = new Spider(13, true);
               // cricket crickets = new cricket(2,1.25);
@@ -161,7 +160,7 @@ public class Main {
 
               // if(spider instanceof insects && spider instanceof Spider){
               //     System.out.println("Spider is both an insect and a spider");
-              }
+              //}
 //              insects insect = new insects(5,6);
 //              Spider spider = new Spider(13, true);
 //              cricket crickets = new cricket(2,1.25);
@@ -199,7 +198,7 @@ public class Main {
                 p.play();
        // Interfaces just enforces the class to have a particular method/field/behaviour, and not its implementation
     }
+
+
 }
-
-
 
